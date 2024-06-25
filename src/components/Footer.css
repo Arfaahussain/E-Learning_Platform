@@ -1,0 +1,13 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: rgba(52, 181, 255, 0.637) !important;
+  color: #000b31; /* Ensure the text is visible */
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: none;
+  box-shadow: 5px;
+}

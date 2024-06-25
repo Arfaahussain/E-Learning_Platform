@@ -1,0 +1,38 @@
+
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import Register from './components/Register';
+import TestDashboard from './components/TestDashboard'; // Fix the casing here
+
+import Profile from './components/Profile';
+import Home from './components/Homepage';
+import './App.css';
+
+function App() {
+  const handleLogin = (userData) => {
+    console.log('User logged in:', userData);
+  };
+  return (
+    <Router>
+      <div className="app-container">
+        <Navbar />
+        <div className="main-content">
+          <Routes>
+            <Route path="/login" element={<Login onLogin={handleLogin} />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/dashboard" element={<TestDashboard />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;

@@ -1,0 +1,28 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .batch-info {
+    margin-top: 20px;
+  }
+  
+  .admin-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #f00;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,43 @@
+/* Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+    text-align: left;
+    background: url('./images/dashboardBG1.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+    color: white; /* Ensure the text is readable on the background */
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-card h3 {
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.course-card p {
+    margin: 5px 0;
+    color: #555;
+}
